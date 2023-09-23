@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loner</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="social">
+            <a href="" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="" class="twitter"><i class="fa-brands fa-twitter"></i></a> 
+        </div>
+        <a href="" class="text-logo">Loner</a>
+        <ul class="navigation">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+        <button class="toggle_btn"><i class="fa-solid fa-bars"></i></button>
+    </header>
+    <main>
+        <article>
+            <img src="./im2.png" alt="">
+            <div class="show_box">
+                <h1 class="show_title">Loner</h1>
+                <h3>Self Care is Self Love</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quisquam ipsam, natus sapiente perspiciatis fuga vero! 
+                    Quod quo a delectus aperiam omnis, aliquam voluptates? 
+                    Ea veniam reiciendis harum quis sint rem.
+                </p>
+                <div class="actions">
+                    <a href="" class="contact">CONTACT</a>
+                    <a href="" class="read_more">READ MORE &rArr;</a>
+                </div>
+            </div>
+            <img src="./im2.png" alt="">
+        </article>
+    </main>
+    <script>
+        const btn = document.querySelector(".toggle_btn");
+        btn.addEventListener("click", () =>
+        document.querySelector(".navigation").classList.toggle("active")
+        );
+        </script>
+</body>
+</html>
