@@ -49,6 +49,9 @@ cursor: pointer;
 img {
 height: 70%;
 }
+.im2{
+    margin-left: 115px;
+}
 article {
 display: grid;
 grid-template-columns: 30% 40% 30%;
