@@ -11,22 +11,31 @@ body {
 background: darkgrey;
 color:#fff;
 }
-header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 15px;
-font-family: Nunito;
-}
+
 .text_logo {
-font-size: 50px;
+font-size: 80px;
 font-family: Nerko One;
 margin-left: 20px;
+}
+.text{
+    width: 50%;
+    text-align: center;
+    margin-left: 120px;
+}
+.nv-bar{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-evenly;
+    background-color:black;
+    height: 100px;
+    width: 100%;
 }
 .navigation li {
 display: inline-block;
 margin: 0 10px;
 cursor: pointer;
+
 }
 .navigation li {
 display: inline-block;
@@ -64,9 +73,10 @@ align-items: center;
 }
 .show_title {
 font-family: Nerko One;
-margin-left: 40px;
+text-align: center;
+margin-left: 15px;
 font-size: 100px;
-width: 50%;
+width: 70%;
 color: rgb(238, 238, 54);
 }
 h3 {
